@@ -1,0 +1,4 @@
+from funcs import *
+
+refillwater()
+
