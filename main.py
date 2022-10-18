@@ -5,7 +5,7 @@ import time
 #GPIO SETUP
 channel = 17
 GPIO.setmode(GPIO.BCM) #chip pin numbering
-GPIO.setup(channel,GPIO.OUT) #sets channel as output pin
+GPIO.setup(channel,GPIO.BOTH) #sets channel as output pin
 
 def callback(channel):
     if GPIO.input(channel):
